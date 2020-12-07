@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+build/
+bucket-name.txt
+out.json
+out.yml
