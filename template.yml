@@ -5,10 +5,10 @@ Resources:
   function:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: build/distributions/Accumulator.zip
-      Handler: example.Accumulator
-      Runtime: java11
-      Description: Java function
+      CodeUri: workdir/accumulator-native.zip
+      Handler: accumulator-native
+      Runtime: provided
+      Description: Native function
       MemorySize: 512
       Timeout: 10
       # Function's execution role

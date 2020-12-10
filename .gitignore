@@ -4,3 +4,4 @@ build/
 bucket-name.txt
 out.json
 out.yml
+/workdir/
